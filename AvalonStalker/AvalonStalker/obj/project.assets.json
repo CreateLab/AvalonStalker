@@ -62,6 +62,18 @@
           "build/Avalonia.targets": {}
         }
       },
+      "Avalonia.AvaloniaEdit/0.9.0-preview1": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "0.9.0-preview1"
+        },
+        "compile": {
+          "lib/netstandard2.0/AvaloniaEdit.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AvaloniaEdit.dll": {}
+        }
+      },
       "Avalonia.Desktop/0.9.3": {
         "type": "package",
         "dependencies": {
@@ -3062,6 +3074,18 @@
         "tools/netcoreapp2.0/designer/Avalonia.Designer.HostApp.dll",
         "tools/netstandard2.0/Avalonia.Build.Tasks.dll",
         "tools/netstandard2.0/Avalonia.Build.Tasks.pdb"
+      ]
+    },
+    "Avalonia.AvaloniaEdit/0.9.0-preview1": {
+      "sha512": "RZcaLhLeGMgvzLd1adXFo7Bn0kyJtO3m8Tx+F5PGv6vK2gRCOMNYsSJEhNteWuSNkhLPKWj346QB/Lgl+/PkwQ==",
+      "type": "package",
+      "path": "avalonia.avaloniaedit/0.9.0-preview1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "avalonia.avaloniaedit.0.9.0-preview1.nupkg.sha512",
+        "avalonia.avaloniaedit.nuspec",
+        "lib/netstandard2.0/AvaloniaEdit.dll"
       ]
     },
     "Avalonia.Desktop/0.9.3": {
@@ -8957,6 +8981,7 @@
     ".NETCoreApp,Version=v3.0": [
       "AvalonStalker.Core >= 1.0.0",
       "Avalonia >= 0.9.3",
+      "Avalonia.AvaloniaEdit >= 0.9.0-preview1",
       "Avalonia.Desktop >= 0.9.3",
       "Avalonia.ReactiveUI >= 0.9.3",
       "Material.Avalonia >= 0.9.0",
@@ -9013,6 +9038,10 @@
           "Avalonia": {
             "target": "Package",
             "version": "[0.9.3, )"
+          },
+          "Avalonia.AvaloniaEdit": {
+            "target": "Package",
+            "version": "[0.9.0-preview1, )"
           },
           "Avalonia.Desktop": {
             "target": "Package",

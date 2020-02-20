@@ -2,42 +2,61 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:avaloniaEdit="https://github.com/avaloniaui/avaloniaedit"
+             xmlns:converters="clr-namespace:AvalonStalker.Converters"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AvalonStalker.Views.RequestView">
+    <UserControl.Resources>
+        <converters:HighlightingDefinitionConverter x:Key="HighlightingDefinitionConverter"/>
+    </UserControl.Resources>
     <Grid Margin="5">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <DockPanel Grid.Row="0" Grid.Column="0" >
-            <ComboBox DockPanel.Dock="Left" Items="{Binding UrlMethods}" SelectedItem="{Binding SelectedUrlMethod}" MinWidth="50">
+        <DockPanel Grid.Row="0" Grid.Column="0">
+            <ComboBox DockPanel.Dock="Left" Items="{Binding UrlMethods}" SelectedItem="{Binding SelectedUrlMethod}"
+                      MinWidth="50">
                 <ComboBox.DataTemplates>
                     <DataTemplate>
-                        <TextBlock Text="{Binding UrlTypesEnum}" MinWidth="30" Foreground="{Binding Brush}"></TextBlock>
+                        <TextBlock Text="{Binding UrlTypesEnum}" MinWidth="30" Foreground="{Binding Brush}" />
                     </DataTemplate>
                 </ComboBox.DataTemplates>
             </ComboBox>
             <Button DockPanel.Dock="Right">SEND</Button>
-            <TextBox Watermark="URL" Text="{Binding Url}"></TextBox>
+            <TextBox Watermark="URL" Text="{Binding Url}" />
         </DockPanel>
-        <Grid Grid.Row="0" Grid.Column="2"></Grid>
+        <Grid Grid.Row="0" Grid.Column="2" />
         <TabControl Grid.Row="1" Grid.Column="0">
-            <TabItem Header="Body"></TabItem>
-            <TabItem Header="Headers"></TabItem>
+            <TabItem Header="Body">
+                <StackPanel>
+                    <ComboBox Name="ComboBoxSyntax" Items="{Binding Syntaxs}" SelectedItem="{Binding SyntaxHighlight}">
+                        
+                    </ComboBox>
+                    <avaloniaEdit:TextEditor Name="GrammarTextBox" SyntaxHighlighting="{Binding SyntaxHighlight, Converter={StaticResource HighlightingDefinitionConverter}}" Text="sdffsf" FontSize="12" ShowLineNumbers="True" Height="300" />
+                </StackPanel>
+
+            </TabItem>
+            <TabItem Header="Headers" />
             <TabItem Header="Binary file">
-                <StackPanel >
+                <StackPanel>
                     <TextBlock Name="AttentionTextBlock" TextAlignment="Center" Margin="10">If binary file set, text in body tab will not send</TextBlock>
-                    <TextBox Watermark="FilePath" Margin="10" MinWidth="{Binding #AttentionTextBlock.Borders.Width}"></TextBox>
+                    <TextBox Watermark="FilePath" Margin="10" MinWidth="{Binding #AttentionTextBlock.Borders.Width}" />
                     <Button HorizontalAlignment="Center" Margin="10">Add File</Button>
                 </StackPanel>
             </TabItem>
+
         </TabControl>
-        <Grid Grid.Row="1" Grid.Column="2"></Grid>
-            
-        </Grid>
+        <TabControl Grid.Row="1" Grid.Column="2">
+            <TabItem Header="Preview" />
+            <TabItem Header="Headers" />
+            <TabItem Header="Cookie" />
+        </TabControl>
+
+    </Grid>
 </UserControl>

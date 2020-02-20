@@ -10,6 +10,7 @@ namespace AvalonStalker.ViewModels.Concrete
     {
         private UrlMethod selectedUrlMethod;
         private string url;
+        private string syntaxHighlight;
         public List<UrlMethod> UrlMethods { get; } = new List<UrlMethod>()
         {
             new UrlMethod
@@ -24,10 +25,17 @@ namespace AvalonStalker.ViewModels.Concrete
                 UrlTypesEnum = UrlTypesEnum.POST,
             },
         };
+        public List<string> Syntaxs { get; } = new List<string>(){"XML", "JSON"};
         public UrlMethod SelectedUrlMethod
         {
             get => selectedUrlMethod;
             set => this.RaiseAndSetIfChanged(ref selectedUrlMethod,value);
+        }
+
+        public string SyntaxHighlight
+        {
+            get => syntaxHighlight;
+            set => this.RaiseAndSetIfChanged(ref syntaxHighlight,value);
         }
 
         public string Url

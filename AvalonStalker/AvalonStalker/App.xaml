@@ -9,5 +9,6 @@
     <Application.Styles>
         <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.Templates.xaml" />
         <StyleInclude Source="avares://Material.Avalonia/Material.Avalonia.DeepPurple.xaml" />
+        <StyleInclude Source="resm:AvaloniaEdit.AvaloniaEdit.xaml?assembly=AvaloniaEdit" />
     </Application.Styles>
 </Application>
