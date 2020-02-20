@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b78911b-52be-45b4-a648-23450d8348e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AvalonStalker/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/AvalonStalker.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/DiExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/Enums/UrlTypesEnum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/AvalonStalker.Core.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/AvalonStalker.Core.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/AvalonStalker.Core.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/AvalonStalker.Core.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/Debug/netstandard2.1/AvalonStalker.Core.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/Debug/netstandard2.1/AvalonStalker.Core.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/Debug/netstandard2.1/AvalonStalker.Core.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/Debug/netstandard2.1/AvalonStalker.Core.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.Core/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Assets/avalonia-logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/AvalonStalker.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/DiExtension.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Models/UrlMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/ViewLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/ViewModels/Abstract/IMainWindowViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/MainWindowViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/RequestViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/ViewModelBase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/nuget.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/AvalonStalker.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/AvalonStalker.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/AvalonStalker.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/AvalonStalker.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/Debug/netcoreapp3.0/AvalonStalker.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/Debug/netcoreapp3.0/AvalonStalker.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/Debug/netcoreapp3.0/AvalonStalker.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/Debug/netcoreapp3.0/AvalonStalker.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/Debug/netcoreapp3.0/Avalonia/resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AvalonStalker/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AvalonStalker.Core/DiExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/MainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Models/UrlMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker.Core/Enums/UrlTypesEnum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/ViewModels/Abstract/IMainWindowViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/ViewLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/DiExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/RequestViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/RequestConterolViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/RequestControlViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker.Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker.Core/DiExtentions.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/RequestControlViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/ViewModelBase.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker.Core/DiExtension.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/Abstract/IMainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/DiExtension.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/AvalonStalker/App.xaml" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/MainWindowViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Views/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Program.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewLocator.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker.Core/Enums/UrlTypesEnum.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Models/UrlMethod.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/ViewModels/Concrete/RequestViewModel.cs" />
+        <option value="$PROJECT_DIR$/AvalonStalker/Views/RequestView.xaml" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\roman.sorokin\Desktop\AvalonStalker\AvalonStalker\.idea\.idea.AvalonStalker\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y41ZgtbScnfBszXVUnpgrqgO6h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AvalonStalker" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/AvalonStalker/AvalonStalker.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b78911b-52be-45b4-a648-23450d8348e4" name="Default Changelist" comment="" />
+      <created>1582187110974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582187110974</updated>
+      <workItem from="1582187115639" duration="13934000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1582208691836">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582208691836" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1582208691835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582208691835" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1582208691835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582208691835" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1582208691835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582208691835" />
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom" timestamp="1582196207929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207929" />
+    <state width="1877" height="288" key="GridCell.Tab.1.center" timestamp="1582196207928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207928" />
+    <state width="1877" height="288" key="GridCell.Tab.1.left" timestamp="1582196207928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207928" />
+    <state width="1877" height="288" key="GridCell.Tab.1.right" timestamp="1582196207928">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207928" />
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom" timestamp="1582196207929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207929" />
+    <state width="1877" height="288" key="GridCell.Tab.2.center" timestamp="1582196207929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207929" />
+    <state width="1877" height="288" key="GridCell.Tab.2.left" timestamp="1582196207929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207929" />
+    <state width="1877" height="288" key="GridCell.Tab.2.right" timestamp="1582196207929">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207929" />
+    <state width="1877" height="288" key="GridCell.Tab.3.bottom" timestamp="1582196207930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207930" />
+    <state width="1877" height="288" key="GridCell.Tab.3.center" timestamp="1582196207930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207930" />
+    <state width="1877" height="288" key="GridCell.Tab.3.left" timestamp="1582196207930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207930" />
+    <state width="1877" height="288" key="GridCell.Tab.3.right" timestamp="1582196207930">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207930" />
+    <state width="1877" height="288" key="GridCell.Tab.4.bottom" timestamp="1582196207931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.4.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207931" />
+    <state width="1877" height="288" key="GridCell.Tab.4.center" timestamp="1582196207931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.4.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207931" />
+    <state width="1877" height="288" key="GridCell.Tab.4.left" timestamp="1582196207931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.4.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207931" />
+    <state width="1877" height="288" key="GridCell.Tab.4.right" timestamp="1582196207931">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="288" key="GridCell.Tab.4.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582196207931" />
+    <state x="552" y="253" key="Rider.ProjectTemplateDialog.Size" timestamp="1582188332091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582188332091" />
+    <state x="765" y="195" key="RiderGenerateDialog" timestamp="1582206163562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="195" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1582206163562" />
+  </component>
+</project>
