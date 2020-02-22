@@ -4,10 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:avaloniaEdit="https://github.com/avaloniaui/avaloniaedit"
              xmlns:converters="clr-namespace:AvalonStalker.Converters"
+             xmlns:databinding="clr-namespace:AvalonStalker.Models"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             Name="RequestView"
              x:Class="AvalonStalker.Views.RequestView">
     <UserControl.Resources>
-        <converters:HighlightingDefinitionConverter x:Key="HighlightingDefinitionConverter"/>
+        <converters:HighlightingDefinitionConverter x:Key="HighlightingDefinitionConverter" />
     </UserControl.Resources>
     <Grid Margin="5">
         <Grid.RowDefinitions>
@@ -34,20 +36,42 @@
         <Grid Grid.Row="0" Grid.Column="2" />
         <TabControl Grid.Row="1" Grid.Column="0">
             <TabItem Header="Body">
-                <StackPanel>
-                    <ComboBox Name="ComboBoxSyntax" Items="{Binding Syntaxs}" SelectedItem="{Binding SyntaxHighlight}">
-                        
-                    </ComboBox>
-                    <avaloniaEdit:TextEditor Name="GrammarTextBox" SyntaxHighlighting="{Binding SyntaxHighlight, Converter={StaticResource HighlightingDefinitionConverter}}" Text="sdffsf" FontSize="12" ShowLineNumbers="True" Height="300" />
-                </StackPanel>
+                <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,*">
+                    <TextBlock TextAlignment="Right" Margin="12">Data Type:</TextBlock>
+                    <ComboBox Name="ComboBoxSyntax" Items="{Binding Syntaxs}" SelectedItem="{Binding SyntaxHighlight}" Margin="5"
+                              MinWidth="50" Grid.Row="0" Grid.Column="1"  Height="30"/>
+                    <avaloniaEdit:TextEditor Name="GrammarTextBox" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                             SyntaxHighlighting="{Binding SyntaxHighlight, Converter={StaticResource HighlightingDefinitionConverter}}"
+                                             Text="sdffsf" FontSize="12" ShowLineNumbers="True" />
+                </Grid>
 
             </TabItem>
-            <TabItem Header="Headers" />
+            <TabItem Header="Headers">
+                <StackPanel>
+                    <ItemsControl Items="{Binding ReadOnlyHeaderModels}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.DataTemplates>
+                            <DataTemplate DataType="{x:Type databinding:HeaderModel}">
+                                <Grid ColumnDefinitions="*,*, Auto">
+                                    <TextBox Watermark="Key" Text="{Binding Key}" Margin="5" Grid.Column="0" />
+                                    <TextBox Watermark="Value" Text="{Binding Value}" Margin="5" Grid.Column="1" />
+                                    <Button Margin="5" Grid.Column="2" Command="{Binding #RequestView.DataContext.RemoveHeader}" CommandParameter="{Binding Id}">Delete</Button>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.DataTemplates>
+                    </ItemsControl>
+                    <Button Margin="5" Command="{Binding AddEmptyHeader}">Add Header</Button>
+                </StackPanel>
+            </TabItem>
             <TabItem Header="Binary file">
                 <StackPanel>
                     <TextBlock Name="AttentionTextBlock" TextAlignment="Center" Margin="10">If binary file set, text in body tab will not send</TextBlock>
-                    <TextBox Watermark="FilePath" Margin="10" MinWidth="{Binding #AttentionTextBlock.Borders.Width}" />
-                    <Button HorizontalAlignment="Center" Margin="10">Add File</Button>
+                    <TextBox Watermark="FilePath" Margin="10" MinWidth="{Binding #AttentionTextBlock.Borders.Width}"  Text="{Binding FilePath}"/>
+                    <Button HorizontalAlignment="Center" Margin="10" Command="{Binding SetFileCommand}">Add File</Button>
                 </StackPanel>
             </TabItem>
 

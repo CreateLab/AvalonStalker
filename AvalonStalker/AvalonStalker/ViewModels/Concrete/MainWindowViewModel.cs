@@ -11,6 +11,6 @@ namespace AvalonStalker.ViewModels.Concrete
         {
             Request = viewModel;
         }
-        public string Greeting => "Hello World!";
+
     }
 }

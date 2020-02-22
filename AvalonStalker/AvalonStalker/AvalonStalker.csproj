@@ -12,7 +12,6 @@
             <SubType>Designer</SubType>
         </AvaloniaResource>
         <AvaloniaResource Include="Assets\**" />
-        <Folder Include="XMLGlossary" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Avalonia" Version="0.9.3" />

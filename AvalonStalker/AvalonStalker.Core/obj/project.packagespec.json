@@ -1,21 +1,16 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\roman.sorokin\\Desktop\\AvalonStalker\\AvalonStalker\\AvalonStalker.Core\\AvalonStalker.Core.csproj",
+    "projectUniqueName": "/home/lary/Desktop/AvalonStalker/AvalonStalker/AvalonStalker.Core/AvalonStalker.Core.csproj",
     "projectName": "AvalonStalker.Core",
-    "projectPath": "C:\\Users\\roman.sorokin\\Desktop\\AvalonStalker\\AvalonStalker\\AvalonStalker.Core\\AvalonStalker.Core.csproj",
-    "outputPath": "C:\\Users\\roman.sorokin\\Desktop\\AvalonStalker\\AvalonStalker\\AvalonStalker.Core\\obj\\",
+    "projectPath": "/home/lary/Desktop/AvalonStalker/AvalonStalker/AvalonStalker.Core/AvalonStalker.Core.csproj",
+    "outputPath": "/home/lary/Desktop/AvalonStalker/AvalonStalker/AvalonStalker.Core/obj/",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netstandard2.1"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {},
-      "https://www.myget.org/F/xamlbehaviors-nightly/api/v2": {}
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netstandard2.1": {
@@ -51,7 +46,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
     }
   }
 }
